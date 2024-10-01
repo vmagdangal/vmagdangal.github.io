@@ -120,3 +120,19 @@ main {
   background-color: white;
   color: #360f2a;
 }
+
+.about {
+  display: flexbox;
+  flex-wrap: wrap;
+  border: 10px solid #360f2a;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.about-image img {
+  width: 21%;
+  float: left;
+  margin-right: 2rem;
+  border: 3px solid #360f2a;
+  border-radius: 5px;
+}
